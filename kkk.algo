@@ -1,0 +1,19 @@
+ALGORITHM principal
+VAR
+    V1, V2 : ARRAY_OF INTEGER[50];
+
+sum : INTEGER := 1
+
+BEGIN
+
+// remplir les 2 vecteurs
+
+Produit_Scal (V1, V2, sum)
+
+IF (sum = 0) THEN
+
+    write ("vecteurs orthogonaux")
+
+END_IF
+
+END
